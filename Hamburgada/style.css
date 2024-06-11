@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    padding: 3%;
+    margin: 0 auto;
+
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke-width: 1px; 
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    border-radius: 20px;
+    transition: 0.5s;
+    text-transform: uppercase;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgb(0, 123, 255);
+}
+
+section,
+footer {
+    padding: 200px 0 ;
+}
+
+p {
+    color: white;
+    -webkit-text-stroke-width: 1px; 
+}
+
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+}
+
+.slogan .slogantexto{
+    margin: 20px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.slogan .slogantexto p{
+    font-size: 40px;
+    color: white;
+}
+
+
+.projetos{
+background-color: rgba(12, 89, 255, 0.747);
+padding: 10px 20px;
+}
+   
+
+.projetos h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.projetos p{
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.projetoscards{
+    display: flex;
+    justify-content: center;
+}
+
+.projetos .item1{
+    background-color: rgb(10, 10, 194);
+    margin: 15px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.projetos .item2{
+    background-color: rgb(118, 2, 141);
+    margin: 15px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.projetos .item3{
+    background-color: rgba(54, 54, 54, 0.767);
+    margin: 15px ;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.projetos .item1 img{
+    border-radius: 10%;
+    margin: 50px auto 15px;
+    display: block;
+}
+
+.projetos .item2 img{
+    border-radius: 10%;
+    margin: 50px auto 15px;
+    display: block;
+}
+
+.projetos .item3 img{
+    border-radius: 10%;
+    margin: 50px auto 15px;
+    display: block;
+
+}
+
+.projetos .item1 .HamburgadaBem{
+    font-size: 21px;
+    margin-bottom:  10px;
+    font-weight: bold
+}
+
+.projetos .item2 .HamburgadaRua{
+    font-size: 21px;
+    margin-bottom:  10px;
+    font-weight: bold
+}
+
+.projetos .item3 .HamburgadaMundo{
+    font-size: 21px;
+    margin-bottom:  10px;
+    font-weight: bold
+   
+}
+
+.projetos .item1:hover{
+    background-color: rgba(0, 0, 255, 0.801);
+    margin-top: -5px;
+}
+
+.projetos .item2:hover{
+    background-color: rgb(206, 39, 248);
+    margin-top: -5px;
+}
+
+.projetos .item3:hover{
+    background-color: rgba(83, 83, 83, 0.808);
+    margin-top: -5px;
+}
+
+.patrocinadores{
+    padding: 70px 80px;
+}
+
+.patrocinadores h3, .patrocinadores p{
+text-align: center;
+color: rgb(0, 0, 0);
+margin: 10px;
+}
+.patrocinadores h3{
+    font-size: 40px;
+}
+
+.patrocinadores .container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobrepelomundo{
+    margin-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        align-items: center;
+background-color: rgba(78, 78, 78, 0.555);
+padding: 30px ;
+}
+
+    
+    .sobrepelomundo h2{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        padding: 20px ;
+    }
+    
+    .sobrepelomundo p{
+       margin-bottom: 20px;
+       text-align: center;
+       font-size: 25px;
+       align-items: center;
+    }
+ 
+    .sobrepelarua h2{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        padding: 20px ;
+    }
+    
+    .sobrepelarua{
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 25px;
+        align-items: center;
+        background-color: rgba(126, 3, 115, 0.808);
+        padding: 30px ;
+    }
+.inscricao1{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    align-items: center;
+    padding: 30px;
+}
+.inscricao{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: bisque;
+    padding: 60px;
+    
+   
+}
+
+.inscricao .esquerdo{
+    width: 50%;
+    background-color: azure ;
+    border-radius: 15px;
+    margin-right: 50px;
+    height: fit-content;
+    padding: 20px 0;
+}
+
+.inscricao .esquerdo h3{
+    font-size: 30px ;
+    padding: 20px;
+    color: rgb(34, 34, 179);
+}
+
+.inscricao .esquerdo p{
+    color: rgba(0, 0, 0, 0.541);
+}
+
+
+.inscricao .direito{
+    width: 50%;
+}
+
+.inscricao .direito h3{
+font-size: 30px ;
+color: rgb(34, 34, 179);
+}
+
+.inscricao .direito input, .inscricao .direito textarea{
+display: block;
+width: 100%;
+margin-bottom: 10px;
+height: 50px;
+padding: 15px;
+border-radius: 10px;
+transition: 0.3s;
+border: 1px solid antiquewhite;
+color: rgb(49, 49, 49);
+font-weight: lighter ;
+}
+
+.inscricao .direito input :focus , .inscricao .direito textarea:focus{
+    border-color: aqua;
+}
+
+.inscricao .direito button{
+    border: solid 1px blue;
+    border-radius: 20px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(24, 15, 141);
+    transition:  0.5s ;
+    width: 200px;
+    height: 50px;
+    font-size: 17px
+}
